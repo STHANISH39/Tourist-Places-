@@ -1,0 +1,518 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header  */
+h1,
+ul,
+li,
+form {
+    display: inline;
+}
+header {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    margin: 2px;
+    width: 99%;
+    border-radius: 15px;
+    height: 100px;
+    position: static;
+    top: 33px;
+    width: 99%;
+    background-color: #adeed9;
+}
+
+
+.tp {
+
+    display: inline-block;
+    margin: 15px;
+    font-size: 50px;
+    color: aqua;
+    background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colors 2.5s linear infinite;
+}
+
+@keyframes colors {
+    to {
+        background-position: 200%;
+    }
+}
+
+header ul {
+    display: inline-block;
+    padding-left: 57%;
+
+}
+
+li {
+    display: inline-block;
+    padding: 7px;
+    font-size: 23px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+/* frame work */
+
+div {
+    margin: 5%;
+    position: relative;
+    width: 90%;
+    height: 570px;
+    background: #adeed9;
+    border-radius: 60px;
+
+}
+
+div span {
+    position: absolute;
+    background: white;
+    width: 97%;
+    height: 92%;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px;
+}
+
+/* places 86 */
+.class86 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h85 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p85 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 87 */
+.class87 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h86 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p86 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 88 */
+.class88 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h87 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p87 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 89 */
+.class89 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h88 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p88 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+
+/* places 90 */
+.class90 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h89 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p89 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 91 */
+.class91 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h90 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p90 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 92 */
+.class92 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h91 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p91 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 93*/
+.class93 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h92 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p92 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 94 */
+.class94 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h93 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p93 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 95 */
+.class95 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h94 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p94 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.id {
+    padding: 0;
+    margin: 0;
+    background-color: #58b19f;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.werapper {
+    display: block;
+    left: 35%;
+    position: absolute;
+    top: 9%;
+    border: 4px solid white;
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border-radius: 20px;
+
+}
+
+.id ul {
+    display: flex;
+
+}
+
+.id ul li {
+    list-style: none;
+}
+
+.id ul li a {
+    display: flex;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+    color: #2c3a47;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.id ul li:first-child a {
+    border-radius: 20px 0 0 20px;
+}
+
+.id ul li:first-child a {
+    border-radius: 0 20px 20px 0;
+}
+
+.id ul li a:hover,
+.id ul li a.active {
+    background: #58b19f;
+    color: #fff;
+}

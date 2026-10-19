@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header  */
+h1,
+ul,
+li,
+form {
+    display: inline;
+}
+
+header {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    margin: 2px;
+    width: 99%;
+    border-radius: 15px;
+    height: 100px;
+    position: static;
+    top: 33px;
+    width: 99%;
+    background-color: #adeed9;
+}
+
+
+.tp {
+
+    display: inline-block;
+    margin: 15px;
+    font-size: 50px;
+    color: aqua;
+    background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colors 2.5s linear infinite;
+}
+
+@keyframes colors {
+    to {
+        background-position: 200%;
+    }
+}
+
+header ul {
+    display: inline-block;
+    padding-left: 57%;
+
+}
+
+li {
+    display: inline-block;
+    padding: 7px;
+    font-size: 23px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+/* frame work */
+
+div {
+    margin: 5%;
+    position: relative;
+    width: 90%;
+    height: 570px;
+    background: #adeed9;
+    border-radius: 60px;
+
+}
+
+div span {
+    position: absolute;
+    background: white;
+    width: 97%;
+    height: 92%;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px;
+}
+
+/* places 156*/
+.class156 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h155 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p155 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 157 */
+.class157 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h156 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p156 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 158 */
+.class158 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h157 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p157 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 159 */
+.class159 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h158 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p158 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+
+/* places 160 */
+.class160 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h159 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p159 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 161 */
+.class161 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h160 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p160 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 162 */
+.class162 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h161 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p161 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 163*/
+.class163 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h162 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p162 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+/* places 164 */
+.class164 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    left: 50%;
+    box-shadow: -30px 30px 50px gray;
+}
+
+span .h163 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 40px;
+    left: 3%;
+}
+
+span .p163 {
+    left: 3%;
+    position: absolute;
+    top: 15%;
+    padding: 5px;
+
+}
+
+span a {
+    position: relative;
+    color: #333;
+    right: 47%;
+    font-size: 28px;
+    top: -4px;
+    margin: 20px;
+}
+
+/* places 165 */
+.class165 {
+    width: 45%;
+    height: 85%;
+    margin: 30px;
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 30px 30px 50px gray;
+}
+
+span .h164 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    left: 49%;
+}
+
+span .p164 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    padding: 5px;
+
+}
+
+
+.s3 a {
+    position: relative;
+    color: #333;
+    left: 76%;
+    font-size: 28px;
+    top: -30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.id {
+    padding: 0;
+    margin: 0;
+    background-color: #58b19f;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.werapper {
+    display: block;
+    left: 35%;
+    position: absolute;
+    top: 9%;
+    border: 4px solid white;
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border-radius: 20px;
+
+}
+
+.id ul {
+    display: flex;
+
+}
+
+.id ul li {
+    list-style: none;
+}
+
+.id ul li a {
+    display: flex;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+    color: #2c3a47;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.id ul li:first-child a {
+    border-radius: 20px 0 0 20px;
+}
+
+.id ul li:first-child a {
+    border-radius: 0 20px 20px 0;
+}
+
+.id ul li a:hover,
+.id ul li a.active {
+    background: #58b19f;
+    color: #fff;
+}
